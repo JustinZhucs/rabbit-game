@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#e8efe0"><meta name="description" content="和小桃、兔兔一起种花种菜，照顾荷塘，寻找顶着橘子的卡皮巴拉。">
+<title>桃溪小院 · 慢慢种，慢慢长</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23f8ede2'/%3E%3Cpath d='M32 22C8 4 4 48 24 53C30 56 34 56 40 53C60 48 56 4 32 22' fill='%23e79b98'/%3E%3Cpath d='M31 21Q32 6 48 9Q45 22 31 21' fill='%23719862'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="game" aria-label="桃溪小院农场游戏">
+<div id="sceneLabels" aria-label="场景标记"></div>
+<canvas id="world" aria-label="可拖动的农场地图，点击地图沿石头路移动小桃，点击种植地管理作物" tabindex="0"></canvas>
+<div id="loading"><span class="loading-flower">✿</span><h1>桃溪小院</h1><p>等一阵风，把小院吹开…</p></div>
+<header class="topbar">
+<div class="brand"><span class="brand-seal">桃</span><div><h1>桃溪小院</h1><p>一方小院，四时欢喜</p></div></div>
+<div class="resources"><span class="coin-mark">◎</span><b id="coins">260</b><span class="resource-divider"></span><span class="heart-mark">♥</span><b id="love">0</b></div>
+<button class="round-button" id="helpButton" aria-label="玩法帮助">?</button>
+</header>
+<div class="location-bar"><span class="season-dot"></span><span>春日 · 晴</span><span class="location-divider">/</span><b id="location">小院菜园</b></div>
+<aside class="welcome-note" id="welcomeNote"><span class="note-flower">✿</span><div><strong>今天，也慢慢来</strong><p>种一颗种子，等一朵花开。</p><small>小桃和兔兔陪你一起</small></div><button id="dismissNote" aria-label="收起便签">×</button></aside>
+<div class="side-controls"><button class="round-button" id="zoomIn" aria-label="放大地图">＋</button><button class="round-button" id="zoomOut" aria-label="缩小地图">−</button><button class="round-button" id="gateButton" aria-label="庭院门">门</button><button class="round-button home-button" id="homeButton" aria-label="回到小桃所在位置">⌂</button></div>
+<div class="guide-pill" id="guide">拖动逛小院 · 点石头路走一走</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<nav class="toolbar" aria-label="游戏工具">
+<button id="plantButton"><span class="tool-icon sprout-icon">♧</span><span>播种</span></button>
+<button id="bagButton"><span class="tool-icon">▤</span><span>小竹篮</span><i id="bagDot" hidden></i></button>
+<button id="mapButton"><span class="tool-icon">⌘</span><span>逛小院</span></button>
+<button id="soundButton" aria-pressed="false"><span class="tool-icon" id="soundIcon">♫</span><span id="soundLabel">听风</span></button>
+</nav>
+<div class="version-label">桃溪手记 · 风动小院</div>
+<div id="modalBackdrop" hidden><section class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"><div class="sheet-handle"></div><button class="sheet-close" id="closeSheet" aria-label="关闭">×</button><span id="sheetEyebrow" class="eyebrow">小院里的日常</span><h2 id="sheetTitle"></h2><div id="sheetContent"></div></section></div>
+</main>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script>
+<script type="module" src="game.js"></script>
+</body>
+</html>

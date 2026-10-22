@@ -1,0 +1,12 @@
+Generation mode: built-in image_gen
+Requested dimensions: 2048x2048
+Actual output dimensions: 1254x1254
+Transparency: RGBA / alpha channel present
+Use case: stylized-concept
+Asset type: production game sprite atlas
+Primary request: Square 2048x2048 PNG transparent background. Exact 4x4 equal grid, one isolated object centered in each cell, NO visible grid lines or text. Authentic beautifully crafted 16-bit pixel art, chunky crisp square pixels, limited colors, no smooth gradients or blurry antialiasing. Each sprite should look drawn on a 64x64 pixel canvas then nearest-neighbor enlarged. Consistent cute Chinese ancient garden farming game style, jade green foliage, blush cherry blossoms, cream outlines, warm sunshine. Front/three-quarter views suitable as billboard sprites in a first person retro pixel game; trunks/plants full length with ground at bottom, no terrain tiles/no cast shadow/no backdrop. Generous transparent padding INSIDE every equal square cell so sprites never touch adjacent cells. EXACT inventory in reading order:
+ROW1: (1) lush full pink flowering cherry tree brown trunk; (2) lush round leafy jade-green deciduous tree brown trunk; (3) plump orange-fruit tree with visible orange fruits; (4) elegant clump of bamboo stems and leaves.
+ROW2: (1) abundant little pink-white meadow flowers with leaves, low cluster; (2) beautiful pink rose bush, low full foliage; (3) purple blue hydrangea bush, rounded; (4) pink blooming lotus on a large green lily pad, front/3-quarter.
+ROW3: (1) adorable caramel capybara standing facing right 3/4 view WITH orange fruit greenleaf on head; (2) SAME capybara walking right, alternate stride WITH orangehead; (3) SAME capybara lying happily on side, closed eyes smiling WITH orangehead; (4) cute cream-white bunny with peach scarf standing facing front.
+ROW4: (1) adorable little girl chibi with dark twin buns, pink hanfu cream skirt facing front; (2) simple ancient Chinese stone garden lantern with teal cap; (3) wicker basket filled with colorful vegetables; (4) TWO adorable cream rabbit paws from first-person perspective, one at left one right, pink paw pads, held forward. No rabbit body or face in this paws cell.
+Constraints: All 16 images complete and well spaced. No text, no watermark, no UI, no floor. True transparency.

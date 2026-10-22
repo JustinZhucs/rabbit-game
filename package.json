@@ -1,0 +1,15 @@
+{
+  "name": "taoxi-farm",
+  "version": "0.2.0",
+  "private": true,
+  "description": "桃溪小院：手机优先的卡通农场游戏",
+  "scripts": {
+    "start": "python3 server.py",
+    "check": "node --check game.js && node --check scene3d.js && node --check models.js && node --check roads.js",
+    "test": "node --test work/roads.test.js"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "type": "module"
+}

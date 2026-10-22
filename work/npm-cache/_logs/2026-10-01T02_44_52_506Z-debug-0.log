@@ -1,0 +1,36 @@
+0 verbose cli /opt/homebrew/Cellar/node@22/22.20.0_1/bin/node /opt/homebrew/opt/node@22/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.20.0
+3 silly config load:file:/opt/homebrew/Cellar/node@22/22.20.0_1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/zhucs/Downloads/mo game/.npmrc
+5 silly config load:file:/Users/zhucs/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install three
+8 verbose argv "install" "--save-exact" "three" "--cache" "./work/npm-cache" "--ignore-scripts" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/Users/zhucs/Downloads/mo game/work/npm-cache/_logs/2026-10-01T02_44_52_506Z-
+10 verbose logfile /Users/zhucs/Downloads/mo game/work/npm-cache/_logs/2026-10-01T02_44_52_506Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest three@*
+15 silly packumentCache full:https://registry.npmjs.org/three cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/three 214ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/three set size:undefined disposed:false
+18 silly placeDep ROOT three@0.186.1 OK for: taoxi-farm@0.1.0 want: *
+19 silly reify moves {}
+20 http cache three@https://registry.npmjs.org/three/-/three-0.186.1.tgz 0ms (cache hit)
+21 silly tarball no local data for three@https://registry.npmjs.org/three/-/three-0.186.1.tgz. Extracting by manifest.
+22 http fetch GET 200 https://registry.npmjs.org/npm 298ms
+23 http fetch GET 200 https://registry.npmjs.org/three/-/three-0.186.1.tgz 397ms (cache miss)
+24 silly ADD node_modules/three
+25 verbose cwd /Users/zhucs/Downloads/mo game
+26 verbose os Darwin 25.5.0
+27 verbose node v22.20.0
+28 verbose npm  v10.9.3
+29 notice
+29 notice New major version of npm available! 10.9.3 -> 12.2.0
+29 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+29 notice To update run: npm install -g npm@12.2.0
+29 notice  { force: true, [Symbol(proc-log.meta)]: true }
+30 verbose exit 0
+31 info ok

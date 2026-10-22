@@ -1,0 +1,7 @@
+Generated with built-in image_gen, exactly two images.
+
+farm-map.png — native 1448x1086 PNG, 4:3. Requested 2048x1536; generation returned native dimensions above.
+Prompt: Polished cute handpainted 2D inclined isometric ancient Chinese courtyard farm. Teal tile roof white courtyard house upper-left; pink blossom trees; moon gate upper-center; pergola upper-right; turquoise lotus pond and wood bridge mid-right; flowers left; orange trees lower-left; bamboo edges; distant blue mountains. Large lower-center grass completely empty for gameplay plot overlays. Cobblestone paths curve around empty grass. Jade greens, peach blossoms, cream stone, summer soft shadows. No crops, characters, animals, UI, lettering, frame, photorealism or 3D.
+
+characters.png — native 1254x1254 RGBA PNG with transparent background, 3x3 atlas, cells 418x418. Requested 1536x1536; generation returned native dimensions above.
+Prompt: Nine separate cute handpainted outlined watercolor-like farm sprites on actual transparent background, equal 3x3 cells with generous padding. Row 1 same chibi girl, twin dark brown buns, pink hanfu and cream skirt: standing front, walking left foot forward, walking right foot forward. Row 2 same plump cream bunny with peach ears and peach scarf: standing, hopping left, hopping right. Row 3 same caramel capybara, orange fruit and green leaf on head: standing right 3/4, walking right, happily lying side with closed smiling eyes. Baselines consistent per cell. No floor, backdrop, extra shadow, grid, border or text.
